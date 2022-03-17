@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html{
+            scroll-behavior: smooth;
+                                /* x or both */
+             scroll-snap-type:y mandatory;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-direction: row;
+        }
+        a{
+            padding: 10px 200px;
+        }
+        .d1{
+            height: 100vh;
+            width: 100%;
+            color: white;
+        }
+        #a{
+            background: brown;
+        }
+        #b{
+            background: cadetblue;
+        }
+        #c{
+            background: chocolate;
+            scroll-snap-align: center ;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="">A</a>
+        <a href="">B</a>
+        <a href="">C</a>
+   
+    </nav>
+
+       
+        <div class="d1" id="a">
+            <h1>Lorem</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus magnam distinctio rerum nostrum voluptas deleniti fugit ut et libero, esse quibusdam maxime ipsam beatae iure ab minima fugiat quod impedit eveniet quo? Exercitationem dolores itaque doloremque nisi! Necessitatibus, sunt accusantium officia est quasi quam dicta ut itaque repellendus similique harum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus magnam distinctio rerum nostrum voluptas deleniti fugit ut et libero, esse quibusdam maxime ipsam beatae iure ab minima fugiat quod impedit eveniet quo? Exercitationem dolores itaque doloremque nisi! Necessitatibus, sunt accusantium officia est quasi quam dicta ut itaque repellendus similique harum.</p>     
+        </div>
+        <div class="d1" id="b">
+            <h1>Lorem</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus magnam distinctio rerum nostrum voluptas deleniti fugit ut et libero, esse quibusdam maxime ipsam beatae iure ab minima fugiat quod impedit eveniet quo? Exercitationem dolores itaque doloremque nisi! Necessitatibus, sunt accusantium officia est quasi quam dicta ut itaque repellendus similique harum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus magnam distinctio rerum nostrum voluptas deleniti fugit ut et libero, esse quibusdam maxime ipsam beatae iure ab minima fugiat quod impedit eveniet quo? Exercitationem dolores itaque doloremque nisi! Necessitatibus, sunt accusantium officia est quasi quam dicta ut itaque repellendus similique harum.</p>   
+        </div>
+        <div class="d1" id="c">
+            <h1>Lorem</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus magnam distinctio rerum nostrum voluptas deleniti fugit ut et libero, esse quibusdam maxime ipsam beatae iure ab minima fugiat quod impedit eveniet quo? Exercitationem dolores itaque doloremque nisi! Necessitatibus, sunt accusantium officia est quasi quam dicta ut itaque repellendus similique harum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus magnam distinctio rerum nostrum voluptas deleniti fugit ut et libero, esse quibusdam maxime ipsam beatae iure ab minima fugiat quod impedit eveniet quo? Exercitationem dolores itaque doloremque nisi! Necessitatibus, sunt accusantium officia est quasi quam dicta ut itaque repellendus similique harum.</p>
+        </div>
+
+</body>
+</html>
